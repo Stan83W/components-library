@@ -1,0 +1,19 @@
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url("../../images/berlin.jpg");
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.banner-content {
+  text-align: center;
+  color: white;
+}
+.banner-content h1 {
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.banner-content h2 {
+  font-weight: lighter;
+}
